@@ -7,3 +7,11 @@ __pycache__/
 .env.*
 !.env.example
 .aws/
+
+# Local tooling artifacts
+.playwright-mcp/
+.codex/
+.agents/
+.sites-runtime/
+
+/cleanup-local.sh
