@@ -3,3 +3,4 @@
 /* Keep intrinsic image and text sizes from widening the grid on small screens. */
 .hero>*,.feature>*,.project>*,.about>*{min-width:0}.phone{height:auto}h1,h2,h3{overflow-wrap:break-word}
 @media(max-width:760px){.hero,.feature,.project,.about{grid-template-columns:minmax(0,1fr)}}
+.policy{max-width:800px;margin:0 auto;padding:56px 0 64px;line-height:1.6}.policy h1{font-size:clamp(38px,5vw,56px)}.policy h2{font-size:28px}.policy section{margin-top:32px}.policy p{color:var(--ink)}.policy .eyebrow,.policy .small{color:var(--muted)}.policy a{overflow-wrap:anywhere}

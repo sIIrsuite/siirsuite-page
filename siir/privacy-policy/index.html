@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>Siir — Privacy policy</title>
+  <meta name="description" content="How Siir handles microphone audio, imported files, analysis and exports on your device, and how to delete local data.">
+  <link rel="canonical" href="https://siirsuite.online/siir/privacy-policy/">
+  <link rel="icon" href="../../assets/launcher.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="wrap">
+    <div id="policy-header">
+      <header>
+        <a class="brand" href="https://siirsuite.online/" aria-label="Siirsuite home"><img class="mark" src="../../assets/siir.svg" alt="" width="76" height="50"><span>suite</span></a>
+        <nav aria-label="Main navigation"><a href="%BASE_URL%">Siir</a><a href="https://github.com/siirsuite/siir">GitHub</a></nav>
+      </header>
+    </div>
+    <main id="main" class="policy">
+      <p class="eyebrow">Siir for Android</p>
+      <h1>Privacy policy</h1>
+      <p class="small">Effective date: <time datetime="2026-10-08">8 October 2026</time></p>
+      <p>This policy applies to <strong>Siir (sIIr)</strong>, the Android audio analysis, visualization and music-generation app developed by <strong>Sahil Raj</strong> under Siirsuite.</p>
+      <p>Siir processes audio on your device. It does not require an account, contain advertising or analytics trackers, or send your audio or analysis to the developer or an app server. We do not sell your data.</p>
+
+      <section aria-labelledby="audio"><h2 id="audio">Audio and files</h2>
+        <p>When you use live audio input, Siir accesses your microphone after you grant Android microphone permission. Audio samples are used locally to calculate audio measurements and drive visualizations. Stop live input or revoke microphone permission in Android settings to stop this access.</p>
+        <p>When you choose an audio file, Siir reads that file and its filename or local path to decode, play and analyze it. This may create a temporary local copy or converted audio file. Analysis results, selections, pins and annotations are handled locally.</p>
+      </section>
+      <section aria-labelledby="permissions"><h2 id="permissions">Permissions</h2>
+        <p>Microphone permission supports live audio features. Depending on your Android version and the feature you use, audio-media or storage access may be requested to open audio or save files. You can manage permissions in Android settings. Denying permission limits the features that need it.</p>
+        <p>Siir does not request access to your location, contacts, camera or advertising identifier.</p>
+      </section>
+      <section aria-labelledby="exports"><h2 id="exports">Storage, retention and deletion</h2>
+        <p>Siir can save generated music as WAV files, analysis as JSON files, and plot snapshots as images. An analysis export can include the source filename, measurements, pins and annotations. Files are stored on your device or in a location you choose through Android's file picker.</p>
+        <p>Temporary files may remain in the app's cache until the app or Android clears them. Files saved in app-managed storage remain until you delete them, clear the app's storage in Android settings, or uninstall Siir. Original audio and files exported outside app-managed storage may remain after uninstalling; delete them through your file manager or the storage provider you used.</p>
+        <p>Your Android backup or chosen storage provider may keep copies according to your device settings and that provider's policy. The developer does not maintain a server-side copy of your audio or analysis. There is no Siir account or account data to delete.</p>
+      </section>
+      <section aria-labelledby="sharing"><h2 id="sharing">Sharing and third parties</h2>
+        <p>Siir does not automatically upload or share your audio, analysis or generated music with third parties. If you share an exported file or choose a cloud-backed storage location, the recipient or storage service handles that file under its own privacy policy.</p>
+        <p>The app uses Flutter and audio, file-selection and mathematical-processing libraries to provide its features. It does not include an advertising SDK, analytics SDK or remote crash-reporting service.</p>
+      </section>
+      <section aria-labelledby="website"><h2 id="website">This website and external links</h2>
+        <p>This policy page is hosted on GitHub Pages. GitHub logs visitors' IP addresses for security purposes, as described in <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>. The website remembers your light or dark theme preference in your browser's local storage; clear this site's browser data to remove it.</p>
+        <p>Google Play, GitHub and other sites you visit through links handle your visits and any information you submit under their own policies. These website visits are separate from Siir's on-device audio processing.</p>
+      </section>
+      <section aria-labelledby="children"><h2 id="children">Children's privacy</h2>
+        <p>Siir has no accounts, advertising or tracking, and does not transmit children's personal information to the developer. Audio provided by any user is handled locally as described above.</p>
+      </section>
+      <section aria-labelledby="changes"><h2 id="changes">Changes to this policy</h2>
+        <p>This page will be updated if Siir's data practices change. The effective date above identifies the current policy.</p>
+      </section>
+      <section aria-labelledby="contact"><h2 id="contact">Contact</h2>
+        <p>For privacy questions or requests about your data, contact Sahil Raj at <a href="mailto:sahil@siirsuite.online">sahil@siirsuite.online</a>.</p>
+        <p>If you contact us, we receive your email address and the information you choose to send. We use that information to respond to your request and retain it only as needed to resolve and follow up on the enquiry. Email providers process the correspondence to deliver messages. You can request deletion of this correspondence at the same address.</p>
+      </section>
+    </main>
+    <footer class="footer"><p>© 2026 Sahil Raj · Siirsuite</p><a href="%BASE_URL%">Back to Siir</a></footer>
+  </div>
+  <script type="module" src="../privacy.jsx"></script>
+</body>
+</html>
