@@ -1,0 +1,27 @@
+{
+  "name": "siirsuite-websites",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode root",
+    "dev:siir": "vite --mode siir",
+    "build": "npm run build:root && npm run build:siir",
+    "build:root": "vite build --mode root",
+    "build:siir": "vite build --mode siir",
+    "preview": "vite preview --mode root",
+    "preview:siir": "vite preview --mode siir",
+    "build:pages": "npm run build && node scripts/prepare-pages.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "vite": "7.3.1",
+    "@vitejs/plugin-react": "5.1.4"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
